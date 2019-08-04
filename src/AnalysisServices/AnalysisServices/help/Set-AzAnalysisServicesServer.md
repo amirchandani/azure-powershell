@@ -237,7 +237,7 @@ Accept wildcard characters: False
 
 ### -Sku
 The name of the Sku for the server.
-The supported values are 'S0', 'S1', 'S2', 'S4' for the Standard tier; 'B1', 'B2' for the Basic tier and 'D1' for Development tier.
+The supported values are 'S0', 'S1', 'S2', 'S4', 'S8' and 'S9' for the Standard tier; 'B1', 'B2' for the Basic tier and 'D1' for Development tier. Note that some SKUs are not available in all regions.
 
 ```yaml
 Type: System.String
